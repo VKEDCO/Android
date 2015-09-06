@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HelloJellyBean42</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_jelly_bean_button">My 1st Android Button</string>
+    <string name="toast_string">Hello, Jelly Bean 4.2!!!</string>
+    <string name="tv_jelly_bean_text">Jelly Bean 4.2</string>
+</resources>
