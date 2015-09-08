@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">InternationalDateDisplayForKitKat</string>
+    <string name="title_activity_inter_date_display">InterDateDisplay 4.4</string>
+    <string name="btnENTxt">EN</string>
+    <string name="btnITTxt">IT</string>
+    <string name="btnFRTxt">FR</string>
+    <string name="btnRUTxt">RU</string>
+    <string name="btnUSLogMsg">EN Clicked</string>
+    <string name="btnITLogMsg">IT Clicked</string>
+    <string name="btnFRLogMsg">FR Clicked</string>
+    <string name="btnRULogMsg">RU Нажата</string>
+    <string name="jan_ru">января</string>
+    <string name="feb_ru">февраля</string>
+    <string name="mar_ru">марта</string>
+    <string name="apr_ru">апреля</string>
+    <string name="may_ru">мая</string>
+    <string name="jun_ru">июня</string>
+    <string name="jul_ru">июля</string>
+    <string name="aug_ru">августа</string>
+    <string name="spt_ru">сентября</string>
+    <string name="oct_ru">октября</string>
+    <string name="nov_ru">ноября</string>
+    <string name="dec_ru">декабря</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
