@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rumi_quote_image_02">
+
+    <Button
+        android:id="@+id/btnStartProgress"
+        style="@style/vkedco_button_style"
+        android:text="@string/download_file_button_title"
+        android:backgroundTint="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/FileDownloadimageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
