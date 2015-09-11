@@ -41,7 +41,7 @@ public class ProgressBarNetworkFileDownloadActivity extends Activity
     Button mBtnStartProgress;
     ImageView mImageView;
     ProgressDialog mProgressBar;
-    Handler mProgressBarHandler = new Handler();
+    Handler mProgressBarHandlerOnMainThread = new Handler();
     int mProgressBarStatus = 0;
     long mFileSize = 0;
 
@@ -132,7 +132,7 @@ public class ProgressBarNetworkFileDownloadActivity extends Activity
                     // After this onProgressUpdate will be called
                     mProgressBarStatus = (int) ((total * 100) / lenghtOfFile);
                     // update the progress bar
-                    mProgressBarHandler.post(new Runnable() {
+                    mProgressBarHandlerOnMainThread.post(new Runnable() {
 
                         @Override
                         public void run() {
