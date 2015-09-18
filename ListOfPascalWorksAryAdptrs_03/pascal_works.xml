@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="pascals_titles">
+		<item>Discourses on the Condition of the Great</item>
+		<item>The Art of Persuasion</item>
+		<item>Of the Geometrical Spirit</item>
+		<item>Preface to the Treatise on Vacuum</item>
+		<item>New Fragment of the Treatise on Vacuum</item>
+	</array>
+	<!-- these dates are made up -->
+	<array name="pascals_titles_years">
+		<item>1651</item>
+		<item>1652</item>
+		<item>1653</item>
+		<item>1654</item>
+		<item>1655</item>
+	</array>
+</resources>
