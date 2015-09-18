@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_bg"
+    tools:context=".ActivityLifecycleTesterAct" >
+
+    <EditText
+        android:id="@+id/usernameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/titleTxt"
+        android:layout_below="@+id/titleTxt"
+        android:layout_marginTop="37dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/signInBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwdTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Sign-In" />
+
+    <EditText
+        android:id="@+id/passwdTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+      
+    <TextView
+        android:id="@+id/titleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/passwdTxt"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/passwdTxt"
+        android:layout_marginTop="63dp"
+        android:text="           Login"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFF00"
+        android:textSize="@dimen/text_size" />
+	
+	
+</RelativeLayout>
