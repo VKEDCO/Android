@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="vladimirs_friends">
+		<item>Aliasgar Kutiyanawala</item>
+		<item>John Nicholson</item>
+		<item>Christopher Blay</item>
+		<item>Tanwir Zaman</item>
+		<item>Daniel Watson</item>
+	</array>
+	<array name="tanwirs_friends">
+		<item>Christopher Blay</item>
+		<item>Sarat Andhavarapu</item>
+		<item>Vladimir Kulyukin</item>
+		<item>Myles Putnam</item>
+		<item>Nick Flann</item>
+	</array>
+</resources>
+    
