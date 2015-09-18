@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PW 2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="discourses">Discourses on the Condition of the Great</string>
+    <string name="persuasion">The Art of Persuasion</string>
+    <string name="geometrical_spirit">Of the Geometrical Spirit</string>
+    <string name="vacuum_01">Preface to the Treatise on Vacuum</string>
+    <string name="vacuum_02">New Fragment of the Treatise on Vacuum</string>
+
+</resources>
