@@ -1,5 +1,7 @@
 package org.vkedco.mobappdev.activity_lifecycle_tester;
 
+// @author: vladimir kulyukin
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
