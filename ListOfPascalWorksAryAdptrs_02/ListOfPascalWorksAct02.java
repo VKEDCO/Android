@@ -1,5 +1,7 @@
 package org.vkedco.mobappdev.listofpascalworksaryadptrs_02;
 
+// @author: vladimir kulyukin
+
 import android.app.ListActivity;
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
