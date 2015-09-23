@@ -1,5 +1,7 @@
 package org.vkedco.mobappdev.activity_lifecycle_tester;
 
+// @author: vladimir kulyukin
+
 import java.util.HashMap;
 
 import android.app.ListActivity;
