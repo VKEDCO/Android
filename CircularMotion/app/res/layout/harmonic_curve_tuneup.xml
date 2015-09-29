@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <TableRow
+            android:id="@+id/tableRowAmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+           <CheckBox
+               android:id="@+id/cbDummyCheckBox"
+               android:clickable="false"
+               android:duplicateParentState="false"
+               android:focusable="false"
+               android:longClickable="false"
+               android:text=""
+               android:visibility="invisible" />
+           
+           <TextView android:text="A = " />
+
+     		<SeekBar
+     		    android:id="@+id/sbAmp"
+     		    android:max="200" />
+     	
+     		<TextView
+     	    android:id="@+id/tvAmpVal"
+            android:text="1" />
+     	
+        </TableRow>
+        
+       <TableRow
+            android:id="@+id/tableRowOmega"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+     		
+           <CheckBox
+        	android:id="@+id/cbOmega"
+        	android:text="" />
+            
+           <TextView
+            android:text="w = " />
+
+     		<SeekBar
+     		    android:id="@+id/sbOmega"
+     		    android:max="200" />
+     	
+     		<TextView
+     	    	android:id="@+id/tvOmegaVal"
+            	android:text="1" />
+     	
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRowinverseOmega"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+     		
+           <CheckBox
+        	android:id="@+id/cbInverseOmega"
+        	android:text="" />
+            
+           <TextView
+            android:text="inv w =" />
+     		<SeekBar
+     		    android:id="@+id/sbInverseOmega"
+     		    android:max="200" />
+     		<TextView
+     	    	android:id="@+id/tvInverseOmegaVal"
+            	android:text="1/1" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRowPhase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+     		
+           <CheckBox
+        	android:id="@+id/cbPhase"
+        	android:text="" />
+            
+           <TextView
+            android:text="phi = " />
+     		<SeekBar
+     		    android:id="@+id/sbPhase"
+     		    android:max="200" />
+     		<TextView
+     	    	android:id="@+id/tvPhaseVal"
+            	android:text="1" />
+        </TableRow>
+    </TableLayout>   
+    
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm" />
+    
+    
+</LinearLayout>
