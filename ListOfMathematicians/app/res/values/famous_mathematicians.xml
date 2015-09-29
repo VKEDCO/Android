@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="list_of_famous_mathematicians">
+		<item>Alonzo Church</item>
+		<item>Kurt Gödel</item>
+		<item>David Hilbert</item>
+		<item>Giuseppe Peano</item>
+		<item>Georg Cantor</item>
+		<item>Muhammad al-Khwarizmi</item>
+		<item>Blaise Pascal</item>
+		<item>Isaac Newton</item>
+		<item>Johannes Kepler</item>
+		<item>Nikolaus Kopernikus</item>
+		<item>Omar Khayyam</item>
+	</string-array>
+</resources>
