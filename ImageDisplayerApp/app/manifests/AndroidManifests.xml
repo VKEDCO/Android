@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.vkedco.mobappdev.image_displayer_app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/rus_uzor"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:name=".ImageDisplayerApp"
+        >
+        <activity
+            android:name=".ImageRequestAct"
+            android:label="@string/title_activity_image_displayer_act01" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ImageRequestProcessorAct"
+        		  android:label="Image Request Processor Activity">
+        	<intent-filter>
+        		<action android:name="android.intent.action.ImageRequestProcessorAct" />
+        		<category android:name="android.intent.category.DEFAULT" />
+        	</intent-filter>
+        </activity>
+    </application>
+
+</manifest>
