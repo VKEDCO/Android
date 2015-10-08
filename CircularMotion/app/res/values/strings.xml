@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">HarmonicCurve</string>
+    <string name="app_name">CircularMotion</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="amp_val">amp_val</string>
-    <string name="omega_val">omega_val</string>
-    <string name="inv_omega_val">inv_omega_val</string>
-    <string name="is_phi_checked">is_phi_checked</string>
-    <string name="is_inv_phi_checked">is_inv_phi_checked</string>
-    <string name="is_omega_checked">is_inv_omega_checked</string>
-	<string name="is_inv_omega_checked">is_inv_omega_checked</string>
+    <string name="circle_tuneup">Tuneup</string>
+    <string name="red_mc">Red Cirle</string>
+    <string name="blue_mc">Blue Circle</string>
+    <string name="magenta_mc">Magenta Circle</string>
+    <string name="yellow_mc">Yellow Circle</string>
+    <string name="confirm">Confirm</string>
+    <string name="motion_circle_tuneup">Tuneup</string>
+    <string name="is_red_circle_displayed">is_red_circle_displayed</string>
+    <string name="is_yellow_circle_displayed">is_yellow_circle_displayed</string>
+    <string name="is_magenta_circle_displayed">is_magenta_circle_displayed</string>
+    <string name="is_blue_circle_displayed">is_red_circle_displayed</string>
+	<string name="tvBlueAmpTxt">Blue Amp</string>
+	<string name="tvRedAmpTxt">Red Amp</string>
+	<string name="tvMagentaAmpTxt">Magenta Amp</string>
+	<string name="tvYellowAmpTxt">Yellow Amp</string>
+	<string name="max_amp">max_amp</string>
+	<string name="red_amp">red_amp</string>
+	<string name="blue_amp">blue_amp</string>
+	<string name="magenta_amp">magenta_amp</string>
+	<string name="yellow_amp">yellow_amp</string>
 </resources>
+
