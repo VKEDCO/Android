@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.vkedco.mobappdev.touchgesturecapture.TouchGestureCapture"
+    android:orientation="vertical"
+    android:gravity="center|left|top">
+
+    <org.vkedco.mobappdev.touchgesturecapture.TouchGestureCaptureView
+        android:id="@+id/touch_gesture_capture_view"
+        android:tag="TOUCH_GESTURE_CAPTURE_VIEW"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_weight="0.3" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.5">
+
+        <EditText
+            android:id="@+id/gesture_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/gesture_name_hint" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/add_gesture"
+                android:text="@string/add_gesture"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:enabled="true"
+                android:textSize="12sp"
+                android:layout_weight="0.3"
+                android:clickable="true"
+                android:layout_gravity="left"
+                android:gravity="center_vertical|center_horizontal">
+
+            </Button>
+            <Button
+                android:id="@+id/erase_gesture"
+                android:text="@string/erase_gesture"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textSize="12sp"
+                android:layout_weight="0.3"
+                android:gravity="center_vertical|center_horizontal"
+                android:clickable="true"
+                android:layout_gravity="center">
+            </Button>
+
+            <Button
+                android:id="@+id/recognize_gesture"
+                android:text="@string/recognize_gesture"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:singleLine="true"
+                android:textSize="12sp"
+                android:gravity="center|center_vertical|center_horizontal"
+                android:layout_weight="0.3"
+                android:clickable="true"
+                android:enabled="true">
+            </Button>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
