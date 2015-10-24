@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FingerPointDrawing</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_gesture">Add Gesture</string>
+    <string name="erase_gesture">Erase Gesture</string>
+    <string name="recognize_gesture">Recognize Gesture</string>
+    <string name="gesture_name_hint">Type gesture name</string>
+</resources>
