@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionCode="1"
+      android:versionName="1.0" package="org.vkedco.mobappdev.rumi_quatrain_fragments">
+    <uses-sdk android:minSdkVersion="12" 
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+    <application android:icon="@drawable/rumi" android:label="Rumi's Quatrains"
+        		 android:allowBackup="true"
+        >
+        <activity android:name="org.vkedco.mobappdev.rumi_quatrain_fragments.RumiQuatrainMainActivity"
+                  android:label="Rumi's TxtFragments">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="org.vkedco.mobappdev.rumi_quatrain_fragments.QuatrainTextDisplayActivity"
+                  android:label="Quatrain's Text">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>
