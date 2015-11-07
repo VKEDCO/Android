@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rumi Quatrain Fragments</string>
+    <string name="quat_index_key">qindex</string>
+    <string name="quat_selection_key">qselection</string>
+</resources>
