@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This file is res/layout/details.xml -->
-<LinearLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  android:layout_width="match_parent"
-  android:layout_height="match_parent">
-  <ScrollView android:id="@+id/scvQuatrainText" 
-      android:layout_width="match_parent"
-      android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
 
-    <TextView
-        android:id="@+id/tvQuatrainText"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+        <ScrollView
+            android:id="@+id/scvQuatrainText"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" >
 
-  </ScrollView>
+            <TextView
+                android:id="@+id/tvQuatrainText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </ScrollView>
+        <VideoView
+            android:id="@+id/videoViewQuatrain"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/scvQuatrainText"
+            android:layout_marginTop="9dp" />
+    </RelativeLayout>
 </LinearLayout>
+
